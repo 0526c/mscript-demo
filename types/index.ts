@@ -29,8 +29,8 @@ export interface Shot {
 }
 
 export interface ScriptScene {
-  scene: string;
-  action: string;
+  scene?: string;
+  action?: string;
   character?: string;
   dialog?: string;
 }
